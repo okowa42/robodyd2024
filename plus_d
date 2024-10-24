@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Akari Hirohara
+
 import sys
 
 ans = 0
