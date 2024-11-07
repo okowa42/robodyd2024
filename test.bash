@@ -22,3 +22,4 @@ out=$(echo | ./plus)
 
 [ "${res}" = 0 ] && echo OK
 exit $res
++ exit 0
