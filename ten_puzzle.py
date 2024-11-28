@@ -24,7 +24,9 @@ def find_expressions(nums):
     return results
 
 if __name__ == "__main__":
-    nums = list(map(int, input("4つの自然数をスペース区切りで入力してください: ").split()))
+    input_data = input("4つの自然数をスペース区切りで入力してください: ").strip()
+    nums = list(map(int, input_data.split()))
+
     if len(nums) != 4:
         print("4つの自然数を正確に入力してください。")
     else:
